@@ -1,5 +1,11 @@
+import { FC } from 'react';
 
-export const OverviewProject = () => {
+interface Props {
+  repository: string;
+  host: string;
+}
+
+export const OverviewProject:FC<Props> = ({ repository, host}) => {
   return (
     <div className='col-span-4'>
           <p>Project</p>
@@ -15,14 +21,14 @@ export const OverviewProject = () => {
             properties. This is made possible with Zillow API.
           </p>
           <a
-            href='https://github.com/fireclint/property-finder'
+            href={repository}
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://property-finder-development.web.app/'
+            href={host}
             target='_blank'
             rel='noreferrer'
           >
