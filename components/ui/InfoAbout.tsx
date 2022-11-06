@@ -17,7 +17,7 @@ export const InfoAbout = () => {
 
         <div className="flex justify-start items-center gap-8 mt-6">
         <a
-              href='https://github.com/fireclint'
+              href='https://github.com/josedbolivarma'
               target='_blank'
               rel='noreferrer'
             >
@@ -30,12 +30,12 @@ export const InfoAbout = () => {
                 <AiOutlineMail size={30}/>
               </div>
             </Link>
-            <Link href='/resume'>
+            <Link href='/'>
               <div className='rounded shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsInstagram size={30}/>
               </div>
             </Link>
-            <Link href='/resume'>
+            <Link href='/'>
               <div className='rounded shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsLinkedin size={30}/>
               </div>
