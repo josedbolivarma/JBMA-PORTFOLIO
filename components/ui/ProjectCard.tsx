@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
 import { FC } from "react";
 import { IProject } from "../../interfaces";
 
@@ -8,6 +9,7 @@ interface Props {
 
 export const ProjectCard:FC<Props> = ({ item }) => {
   
+  const router = useRouter();
   const { title, desc, host, id, img, repository } = item;
   
   return (
@@ -22,7 +24,7 @@ export const ProjectCard:FC<Props> = ({ item }) => {
         <h2 className="text-4xl">{ title }</h2>
         <p className="text-1xl">{ desc }</p>
         <div className="flex flex-col items-center justify-between gap-2 mt-4">
-          <button className="group-hover:opacity-100 opacity-0 h-[30%] py-2 px-4 transition-opacity duration-300">
+          <button onClick={ () => router.push(`/project/${id}`) } className="group-hover:opacity-100 opacity-0 h-[30%] py-2 px-4 transition-opacity duration-300">
             See More
           </button>
           <div className="w-full flex items-center justify-around mt-3 px-2">

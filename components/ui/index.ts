@@ -5,4 +5,7 @@ export * from './InfoAbout';
 export * from './CardProfile';
 export * from './Projects';
 export * from './ProjectCard';
+export * from './BannerProject';
+export * from './OverviewProject';
+export * from './InfoTechProject';
 export * from './Footer';
