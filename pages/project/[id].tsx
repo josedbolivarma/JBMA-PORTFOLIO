@@ -12,15 +12,15 @@ interface Props {
 
 const Project: NextPage<Props> = ({ project }) => {
   
-  const { title, desc, host, img, repository } = project;
+  const { title, desc, host, img, repository, overview, technologies } = project;
   
   return (
     <Layout title={ title }>
         <div className='w-full h-full min-h-[100vh]'>
-        <BannerProject title={title} img={img} />
+        <BannerProject title={title} img={img} desc={desc}/>
         <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8 px-8'>
-            <OverviewProject repository={repository} host={host}/>
-            <InfoTechProject />
+            <OverviewProject repository={repository} host={host} overview={overview}/>
+            <InfoTechProject technologies={technologies}/>
             <Link href='/#projects'>
                 <p className='underline cursor-pointer'>Back</p>
             </Link>

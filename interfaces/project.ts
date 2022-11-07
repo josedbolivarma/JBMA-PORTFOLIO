@@ -5,4 +5,6 @@ export interface IProject {
     img: string;
     repository: string;
     host: string;
+    overview: string;
+    technologies: string[];
 }
