@@ -1,5 +1,6 @@
 import { Layout } from '../components/layouts';
-import { Banner, About, Projects } from '../components/ui';
+import { Banner, About, Projects, ContactBanner } from '../components/ui';
+import { Certifications } from '../components/container/Certifications';
 
 export default function Home() {
   return (
@@ -10,6 +11,10 @@ export default function Home() {
       </div>
       <div className='w-[96%] m-auto'>
         <Projects />
+      </div>
+      <ContactBanner />
+      <div className='w-[96%] m-auto'>
+        <Certifications />
       </div>
     </Layout>
   )

@@ -21,7 +21,12 @@ export const CardProfile = () => {
                 <h3>285 <br /><span>Following</span></h3>
               </div>
               <div className="actionBtn">
-                <button>Follow</button>
+                <a href="/RESUME_JOSE_DAVID_BOLIVAR_MAYORA.pdf"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                >
+                  <button>Resume</button>
+                </a>
                 <button>Message</button>
               </div>
             </div>

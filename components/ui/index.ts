@@ -8,4 +8,6 @@ export * from './ProjectCard';
 export * from './BannerProject';
 export * from './OverviewProject';
 export * from './InfoTechProject';
+export * from './CardCertification';
+export * from './ContactBanner';
 export * from './Footer';
