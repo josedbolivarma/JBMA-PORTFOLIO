@@ -80,8 +80,8 @@ export const Navbar = () => {
                         </Link>
                     </li>
                     <li className="ml-10 text-sm uppercase hover:border-b">
-                        <Link href='/#contact'>
-                            Contact
+                        <Link href='/#certifications'>
+                        Certifications
                         </Link>
                     </li>
                 </ul>
@@ -162,9 +162,9 @@ export const Navbar = () => {
                   Resume
                 </li>
               </Link>
-              <Link href='/#contact'>
+              <Link href='/#certifications'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Contact
+                  Certifications
                 </li>
               </Link>
             </ul>
