@@ -138,7 +138,7 @@ export const Skills = () => {
     <div className="relative w-full flex flex-col justify-center items-center">
         <div className="mb-8 text-center">
           <h2 className="text-white mb-3">SKILLS</h2>
-          <h3 className="text-white">My technical level</h3>
+          <h3 className="text-gray-300 text-lg">My technical level</h3>
         </div>
 
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:w-[840px] gap-10 md:gap-10">
