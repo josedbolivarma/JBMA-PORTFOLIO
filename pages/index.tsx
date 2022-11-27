@@ -1,6 +1,6 @@
 import { Layout } from '../components/layouts';
 import { Banner, About, Projects, ContactBanner } from '../components/ui';
-import { TimelineContainer, Certifications } from '../components/containers';
+import { TimelineContainer, Certifications, Skills } from '../components/containers';
 
 export default function Home() {
   return (
@@ -8,6 +8,9 @@ export default function Home() {
       <Banner />
       <div className='w-[90%] m-auto'>
         <About />
+      </div>
+      <div className='w-[96%] m-auto'>
+        <Skills />
       </div>
       <div className='w-[96%] m-auto'>
         <Projects />
