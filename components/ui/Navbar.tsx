@@ -5,6 +5,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import navLogo from '../../public/jairLogo.png';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { GiCrownedSkull } from 'react-icons/gi';
 
 export const Navbar = () => {
 
@@ -48,18 +49,23 @@ export const Navbar = () => {
     }, []);
 
   return (
-    <nav className={`fixed w-full h-20 ${ shadow? 'shadow-xl' : '' } z-[100] ease-in-out duration-300`} style={{
+    <nav className={`fixed w-full h-20 ${ shadow? 'shadow-xl' : '' } z-[100] ease-in-out duration-300 px-3`} style={{
       backgroundColor: navBg
     }}>
-        <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+        <div className='flex justify-between items-center w-full h-full px-3 2xl:px-16'>
              <Link className='flex items-center gap-2' href='/'>
-                <Image 
+                {/* <Image 
                     src={ navLogo }
                     alt='Navbar Logo'
                     width={110}
                     height={100}
                     className='cursor-pointer'
-                />
+                /> */}
+                <div>
+                <GiCrownedSkull size={ 40 }/>
+                JAIR
+                </div>
+                
                 <h2 className="font-bold text-5xl tracking-tighter">
                     <span className="text-gray-900 text-7xl tracking-tighter" style={{ letterSpacing: '-9px'}}>J</span>
                     BMA
