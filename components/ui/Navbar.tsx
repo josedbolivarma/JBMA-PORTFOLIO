@@ -10,7 +10,7 @@ export const Navbar = () => {
 
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
-    const [navBg, setNavBg] = useState('#ecf0f3');
+    const [navBg, setNavBg] = useState('#000');
     const [linkColor, setLinkColor] = useState('#1f2937');
     // const [position, setPosition] = useState('fixed')
     // const router = useRouter();
@@ -38,7 +38,9 @@ export const Navbar = () => {
       const handleShadow = () => {
         if (window.scrollY >= 90) {
           setShadow(true);
+          setNavBg('#000');
         } else {
+          setNavBg('transparent')
           setShadow(false);
         }
       };
@@ -46,7 +48,9 @@ export const Navbar = () => {
     }, []);
 
   return (
-    <nav className='fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 bg-transparent'>
+    <nav className={`fixed w-full h-20 ${ shadow? 'shadow-xl' : '' } z-[100] ease-in-out duration-300`} style={{
+      backgroundColor: navBg
+    }}>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
              <Link className='flex items-center gap-2' href='/'>
                 <Image 
