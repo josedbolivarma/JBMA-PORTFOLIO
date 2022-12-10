@@ -11,7 +11,7 @@ export const Navbar = () => {
 
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
-    const [navBg, setNavBg] = useState('#000');
+    const [navBg, setNavBg] = useState('transparent');
     const [linkColor, setLinkColor] = useState('#1f2937');
     // const [position, setPosition] = useState('fixed')
     // const router = useRouter();

@@ -6,6 +6,19 @@ type Props = {
     description: string;
 }
 
+type DataType = {
+    id: number;
+    image: string;
+    title: string;
+    description: string;
+    startDate: string;
+    endDate: string;
+}
+
+type InitialProps = {
+    data: DataType[];
+}
+
 const TimelineLeft = ({ image, title, description }: Props ) => {
     return (
         <div className="relative z-10">
@@ -60,7 +73,7 @@ const TimelineRight = ({ image, title, description }: Props) => {
     )
 }
 
-export const Timeline = () => {
+export const Timeline = ({ data }: InitialProps ) => {
   return (
     <div className="text-gray-800">
      <div className="relative container mx-auto px-6 flex flex-col space-y-8">
@@ -70,20 +83,20 @@ export const Timeline = () => {
 
             {/* LOOP */}
                 {
-                    dataProjects.map((project, index) => {
+                    data.map((project, index) => {
                         if ( index % 2 === 0 ) {
                             return <TimelineLeft 
                             key={project.id} 
-                            image={ project.img }
+                            image={ project.image }
                             title={ project.title }
-                            description={ project.desc }
+                            description={ project.description }
                             />
                         }
                         return <TimelineRight 
                         key={ project.id } 
-                        image={ project.img } 
+                        image={ project.image } 
                         title={ project.title }
-                        description={ project.desc }
+                        description={ project.description }
                         />
                     })
                 }
