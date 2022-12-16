@@ -15,6 +15,11 @@ const data = [
         title: 'Rootlab - Roostack',
         link: '/RootLab_Next.pdf'
     },
+    {
+      img: 'https://res.cloudinary.com/duzncuogi/image/upload/v1671197421/my-portfolio/docs/Diapositiva9_iitrqe.jpg',
+      title: 'Softka U',
+      link: '/softka_testing.pdf'
+  },
 ]
 
 export const Certifications = () => {
