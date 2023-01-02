@@ -24,7 +24,7 @@ export const Footer = () => {
           <a href="https://github.com/josedbolivarma">
           <FiGithub size={ 30 } />
           </a>
-          <a className='shadow-lg cursor-pointer hover:scale-110 ease-in duration-300' href="#">
+          <a className='shadow-lg cursor-pointer hover:scale-110 ease-in duration-300' href="https://www.instagram.com/josedbolivarma81/">
           <BsInstagram size={ 30 } />
           </a>
         </div>

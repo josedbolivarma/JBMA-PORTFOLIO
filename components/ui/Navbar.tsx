@@ -167,7 +167,9 @@ export const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href='/resume'>
+              <Link href="/RESUME_JOSE_DAVID_BOLIVAR_MAYORA.pdf"
+                 target="_blank"
+                 rel="noopener noreferrer">
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Resume
                 </li>
@@ -184,7 +186,7 @@ export const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/jose-david-bolivar-mayora-developer/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -193,7 +195,7 @@ export const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/josedbolivarma'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -209,7 +211,7 @@ export const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href='/resume'>
+                <Link href='/'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'

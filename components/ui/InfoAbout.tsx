@@ -30,12 +30,12 @@ export const InfoAbout = () => {
                 <AiOutlineMail size={30}/>
               </div>
             </Link>
-            <Link href='/'>
+            <Link href='https://www.instagram.com/josedbolivarma81/'>
               <div className='rounded shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsInstagram size={30}/>
               </div>
             </Link>
-            <Link href='/'>
+            <Link href='https://www.linkedin.com/in/jose-david-bolivar-mayora-developer/'>
               <div className='rounded shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsLinkedin size={30}/>
               </div>
