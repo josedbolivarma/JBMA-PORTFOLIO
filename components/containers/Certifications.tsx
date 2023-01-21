@@ -19,7 +19,22 @@ const data = [
       img: 'https://res.cloudinary.com/duzncuogi/image/upload/v1671197421/my-portfolio/docs/Diapositiva9_iitrqe.jpg',
       title: 'Softka U',
       link: '/softka_testing.pdf'
-  },
+    },
+    {
+      img: 'https://res.cloudinary.com/duzncuogi/image/upload/v1674315641/my-portfolio/docs/html_basico_oepb24.jpg',
+      title: 'HTML and CSS',
+      link: '/html_css.pdf'
+    },
+    {
+      img: 'https://res.cloudinary.com/duzncuogi/image/upload/v1674315641/my-portfolio/docs/javascript_basico_vyh84l.jpg',
+      title: 'JavaScript Basic',
+      link: '/javascript_basico.pdf'
+    },
+    {
+      img: 'https://res.cloudinary.com/duzncuogi/image/upload/v1674315641/my-portfolio/docs/angular_basico_f8lkhj.jpg',
+      title: 'Angular Basic',
+      link: '/angular_basico.pdf'
+    },
 ]
 
 export const Certifications = () => {
