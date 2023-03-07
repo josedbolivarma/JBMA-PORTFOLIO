@@ -39,7 +39,7 @@ export const dataProjects: IProject[]  = [
         host: 'https://app-netnet.vercel.app/',
         repository: 'https://github.com/josedbolivarma/app-netnet',
         img: 'https://res.cloudinary.com/duzncuogi/image/upload/v1667760480/my-portfolio/projects/netflix_b8ukv8.png',
-        overview: 'Netflix clone made with Vanilla JavaScript ,Rest API with NodeJS and deploy to Heroku. Use of LocalStorage and Fetch API.',
+        overview: 'Netflix clone made with Vanilla JavaScript ,Rest API with NodeJS and deploy to Render. Use of LocalStorage and Fetch API.',
         technologies: ['JavaScript', 'Rest API', 'Heroku']
     },
     {
@@ -51,5 +51,15 @@ export const dataProjects: IProject[]  = [
         img: 'https://res.cloudinary.com/duzncuogi/image/upload/v1667760455/my-portfolio/projects/dcopasjose_vvmqrz.jpg',
         overview: 'Cocktail web application, direct search and filters. Using the Rest API from https://www.thecocktaildb.com/api.php.',
         technologies: ['React', 'Redux', 'Rest API', 'Sass']
+    },
+    {
+        id: 6,
+        title: 'Netflix App',
+        desc: 'Netflix Clone V2 Completed App',
+        host: 'https://netflix-clone-react-lemon.vercel.app/',
+        repository: 'https://github.com/josedbolivarma/netflix-clone-react',
+        img: 'https://res.cloudinary.com/duzncuogi/image/upload/v1678207212/my-portfolio/projects/netflix_gz9bxz.jpg',
+        overview: 'Netflix clone made with React ,Rest API and deploy to Render. Rest API. https://developers.themoviedb.org/3.',
+        technologies: ['React', 'Rest API', 'Render']
     }
 ]
