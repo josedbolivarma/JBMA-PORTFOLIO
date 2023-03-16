@@ -26,8 +26,8 @@ export const dataProjects: IProject[]  = [
         id: 3,
         title: 'Amazonas App',
         desc: 'Amazon Clone Completed Eccommerce',
-        host: 'https://dota-app-ts.vercel.app/',
-        repository: 'https://github.com/josedbolivarma/Dota-App-TS',
+        host: 'https://amazon-react-ts.vercel.app/',
+        repository: 'https://github.com/josedbolivarma/Amazon-React-TS',
         img: 'https://res.cloudinary.com/duzncuogi/image/upload/v1667760452/my-portfolio/projects/amazon_gucx6t.jpg',
         overview: 'Amazon Ecommerce Clone, has its list of products, a login and user registration, in addition to being able to see the details of each product, these can be added to the stock and to the shopping cart. It has a geolocation system through a global map.',
         technologies: ['React', 'Redux', 'TypeScript', 'Firebase']
