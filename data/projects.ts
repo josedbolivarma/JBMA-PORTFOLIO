@@ -59,7 +59,17 @@ export const dataProjects: IProject[]  = [
         host: 'https://netflix-clone-react-lemon.vercel.app/',
         repository: 'https://github.com/josedbolivarma/netflix-clone-react',
         img: 'https://res.cloudinary.com/duzncuogi/image/upload/v1678207212/my-portfolio/projects/netflix_gz9bxz.jpg',
-        overview: 'Netflix clone made with React ,Rest API and deploy to Render. Rest API. https://developers.themoviedb.org/3.',
-        technologies: ['React', 'Rest API', 'Render']
+        overview: 'Netflix clone made with React ,Rest API and deploy to Vercel. Rest API. https://developers.themoviedb.org/3.',
+        technologies: ['React', 'Rest API']
+    },
+    {
+        id: 7,
+        title: 'Anime Cover',
+        desc: 'Anime Completed App',
+        host: 'https://anime-cover.vercel.app/',
+        repository: 'https://github.com/josedbolivarma/Anime-Cover',
+        img: 'https://res.cloudinary.com/duzncuogi/image/upload/v1678983989/my-portfolio/projects/anime_jine2i.jpg',
+        overview: 'Anime Web App made with React ,Rest API and deploy to Vercel. Rest API. https://docs.api.jikan.moe/.',
+        technologies: ['React', 'Rest API', 'Redux']
     }
 ]
