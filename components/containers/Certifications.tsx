@@ -21,6 +21,11 @@ const data = [
       link: '/softka_testing.pdf'
     },
     {
+      img: 'https://res.cloudinary.com/duzncuogi/image/upload/v1679270477/my-portfolio/docs/Certificado_HackathonJose_BolivarMayora_page-0001_clu6t1.jpg',
+      title: 'Hackaton QSD',
+      link: '/CertificadoHackathonJoseBolivarMayora.pdf'
+    },
+    {
       img: 'https://res.cloudinary.com/duzncuogi/image/upload/v1674315641/my-portfolio/docs/html_basico_oepb24.jpg',
       title: 'HTML and CSS',
       link: '/html_css.pdf'
