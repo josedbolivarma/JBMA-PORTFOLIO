@@ -7,4 +7,5 @@ export interface IProject {
     host: string;
     overview: string;
     technologies: string[];
+    in_process: boolean;
 }
