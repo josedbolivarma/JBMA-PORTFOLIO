@@ -78,5 +78,16 @@ export const dataProjects: IProject[]  = [
         overview: 'Anime Web App made with React ,Rest API and deploy to Vercel. Rest API. https://docs.api.jikan.moe/.',
         technologies: ['React', 'Rest API', 'Redux'],
         in_process: true
-    }
+    },
+    {
+        id: 8,
+        title: 'Pokedex',
+        desc: 'Completed Pokedex App',
+        host: 'https://tita-pokedex-front.vercel.app/',
+        repository: 'https://github.com/josedbolivarma/tita-pokedex-front',
+        img: 'https://res.cloudinary.com/duzncuogi/image/upload/v1728699506/my-portfolio/projects/Gengard_pokemon_rc5jht.jpg',
+        overview: 'Pokedex Web App made with React ,Rest API,  Redux, TypeScript, Graphql and deploy to Vercel. Graphql https://beta.pokeapi.co/graphql/v1beta/.',
+        technologies: ['React', 'Rest API', 'Redux', 'TypeScript', 'Graphql'],
+        in_process: false
+    },
 ]
