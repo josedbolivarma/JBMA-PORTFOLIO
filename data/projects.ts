@@ -90,4 +90,15 @@ export const dataProjects: IProject[]  = [
         technologies: ['React', 'Rest API', 'Redux', 'TypeScript', 'Graphql'],
         in_process: false
     },
+    {
+        id: 9,
+        title: 'Fotografía Randy Guerra',
+        desc: 'Service Photograph Portfolio',
+        host: 'https://photograph-app-gamma.vercel.app/',
+        repository: '',
+        img: 'https://res.cloudinary.com/duzncuogi/image/upload/v1724883719/fondo2_joklhw.jpg',
+        overview: 'Service Photograph Portfolio made with Next JS ,Rest API, TypeScript. Deploy to Vercel.',
+        technologies: ['Next JS', 'Rest API', 'TypeScript'],
+        in_process: false
+    }
 ]

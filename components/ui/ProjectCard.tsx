@@ -36,10 +36,10 @@ export const ProjectCard:FC<Props> = ({ item }) => {
             See More
           </button>
           <div className="w-full flex items-center justify-around mt-3 px-2">
-            <a className="text-2xl font-bold uppercase hover:border-b" href={host}>
+            <a className="text-2xl font-bold uppercase hover:border-b" href={host} target="_blank">
               Deployment
             </a>
-            <a className="text-2xl font-bold uppercase hover:border-b" href={repository}>
+            <a className="text-2xl font-bold uppercase hover:border-b" href={repository} target="_blank">
               Repository
             </a>
           </div>
