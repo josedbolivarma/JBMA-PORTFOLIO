@@ -4,6 +4,10 @@ import { BsFillHddNetworkFill, BsCodeSlash } from 'react-icons/bs';
 import { FaTeamspeak } from 'react-icons/fa';
 import { GiRobotGolem } from 'react-icons/gi';
 
+// powerbi
+import { PowerBIEmbed } from 'powerbi-client-react';
+import Image from "next/image";
+
 
 const data = [
   {
